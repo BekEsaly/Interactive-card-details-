@@ -115,7 +115,9 @@ input{
 input::placeholder{
     color: var(--lightGrayishViolet);
 }
- 
+ input:valid{
+    color: var(--veryDarkViolet);
+}
 
 input:focus{
   outline: 1px solid var(--veryDarkViolet);
