@@ -124,20 +124,22 @@ submitBtn.addEventListener("click", (e)=> {
 
 continueBtn.addEventListener("click",  (e)=> {
     
-  
-  document.getElementsByTagName("input").placeholderColor="hsl(270, 3%, 87%)";
-  
   document.querySelector(".form").style.display="flex";
     document.querySelector(".thank-you").style.display="none";
-    name.value=name.placeholder;
+    name.value="";
+    name.placeholder="e.g. Jane Appleseed";
     nameOnImg.innerHTML="Jane Appleseed";
-    cardNumber.value="e.g. 1234 5678 9123 0000";
+    cardNumber.value="";
+    cardNumber.placeholder="e.g. 1234 5678 9123 0000";
     numberOnImg.innerHTML="0000 0000 0000 0000";
-    month.value=month.placeholder;
+    month.value="";
+    month.placeholder="e.g. 1234 5678 9123 0000"
     monthOnImg.innerHTML="00";
-    year.value=year.placeholder;
+    year.value="";
+    year.placeholder="YY"
     yearOnImg.innerHTML="00";
-    cvc.value=cvc.placeholder;
+    cvc.value="";
+    cvc.placeholder="e.g. 123";
     cvcOnImg.innerHTML="000";
 
 });
