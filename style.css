@@ -389,7 +389,7 @@ align-items: baseline;
 }
 
 }*/
-@media (min-width: 979px) and (max-width: 1300px){
+@media (min-width: 800px) and (max-width: 1300px){
   
     .bg-card-front{
         position: absolute;
@@ -401,11 +401,11 @@ align-items: baseline;
     }
     .card-number-img{
         position: absolute;
-        top: 65%;
+        top: 75%;
     }
     .cardholder-exp-img{
         position: absolute;
-        top: 45%;
+        top: 65%;
     }
     .bg-card-back{
         position: absolute;
