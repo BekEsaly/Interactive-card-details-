@@ -388,8 +388,8 @@ align-items: baseline;
     width: 100%;
 }
 
-}
-@media (min-width: 979px) and (max-width: 1100px){
+}*/
+@media (min-width: 979px) and (max-width: 1300px){
   
     .bg-card-front{
         position: absolute;
@@ -418,4 +418,4 @@ align-items: baseline;
     .container{
         margin-top: 4rem;
     }
-}*/
+}
