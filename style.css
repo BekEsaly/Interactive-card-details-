@@ -211,7 +211,7 @@ align-items: baseline;
       .wrapper{
          
           flex-direction: column;
-         justify-content:space-around;
+         gap:2rem;
     
       }
       .container{
