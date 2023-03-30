@@ -216,7 +216,7 @@ align-items: baseline;
     
       }
       .container{
-          margin: 0 auto;
+          margin: -10% auto;
           
       }
         .bg-main-desktop{
