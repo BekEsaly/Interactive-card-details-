@@ -36,9 +36,6 @@ body{
     align-items: center;
 }
 
-.container{
-   transform: translateX(30%);
-}
 .bg-main-desktop{
     max-width: 20rem;
     padding-left: 0;
