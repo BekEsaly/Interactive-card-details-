@@ -213,16 +213,15 @@ align-items: baseline;
 }
 
 @media (min-width:300px) and (max-width: 394px){
-      .wrapper{
-         
+      .wrapper{       
           flex-direction: column;      
-    
+          height: 100%;
       }
       .container{
           transform: translateY(95%);
       }
         .bg-main-desktop{
-        display: none;
+         display: none;
     }
     .bg-main-mobile{
     display: flex;
