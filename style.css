@@ -212,8 +212,7 @@ align-items: baseline;
 @media (min-width:300px) and (max-width: 394px){
       .wrapper{
          
-          flex-direction: column;
-         
+          flex-direction: column;      
     
       }
       .container{
@@ -318,9 +317,7 @@ align-items: baseline;
         top: 29%;
         left: 90%;
     }
-    .container{
-        margin-top: 7rem;
-    }
+    
 } 
 /*for other media screen*/
 /*
