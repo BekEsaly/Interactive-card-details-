@@ -37,7 +37,7 @@ body{
 }
 .container{
    margin: 0 auto;
-   transform: translateX(30%);
+   
 }
 .bg-main-desktop{
     max-width: 20rem;
@@ -219,8 +219,7 @@ align-items: baseline;
     
       }
       .container{
-          margin: -10% auto;
-          
+          transform: translateY(50%);
       }
         .bg-main-desktop{
         display: none;
