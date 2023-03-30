@@ -219,7 +219,7 @@ align-items: baseline;
     
       }
       .container{
-          transform: translateY(80%);
+          transform: translateY(95%);
       }
         .bg-main-desktop{
         display: none;
