@@ -218,7 +218,7 @@ align-items: baseline;
           height: 100%;
       }
       .container{
-          transform: translateY(-70%);
+          transform: translateY(-100%);
       }
         .bg-main-desktop{
          display: none;
